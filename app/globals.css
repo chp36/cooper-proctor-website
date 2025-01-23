@@ -15,7 +15,149 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: var(--font-geist-sans), sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold; /* Make the title bold */
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.nav {
+  margin-top: 20px;
+}
+
+.nav-top {
+  margin-top: 30px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px; /* Add some margin from the top */
+}
+
+.nav-list a:hover {
+  color: #0056b3;
+}
+
+/* Main Section */
+.main {
+  padding: 20px 20px;
+}
+
+/* Section Headers (h1, h2, etc.) */
+h1, h2, h3, h4 {
+  font-weight: bold; /* Make all section headers bold */
+  font-size: 1.5rem; /* Set the font size for all section headers */
+}
+
+/* Footer */
+.footer {
+  padding: 20px 0;
+  background-color: #222222;
+  border-top: 2px solid #ddd;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+a {
+  color: #007bff; /* Light blue */
+  text-decoration: none; /* Removes the underline by default */
+}
+
+a:hover {
+  text-decoration: underline; /* Adds an underline on hover for better accessibility */
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px; /* Add bottom margin for spacing */
+  text-align: center; /* Keep titles centered */
+}
+
+/* About Section */
+.about-container {
+  text-align: center; /* Center-aligns all content in the about section */
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.about-line {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.about-paragraph {
+  margin-top: 20px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Projects Section */
+.container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.project a {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
