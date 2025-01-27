@@ -23,15 +23,6 @@ export default function Home() {
         </section>
         <section id="projects">
           <div className="container">
-            <h2 className="section-title">Projects</h2>
-            <div className="project">
-                <a
-                    href="VR Virtual Grasping Final Paper.pdf"
-                    target="_blank"
-                >
-                Physics-Based Free-Hand Virtual Grasping in VR
-                </a>
-            </div>
             <div className="project">
                 <a
                     href="https://medium.com/@matthew.krakower21/generating-recipe-titles-with-neural-networks-4c669970c7d5"
@@ -48,7 +39,15 @@ export default function Home() {
                 Snowflakes 3D Animation
                 </a>
             </div>
-            
+            <h2 className="section-title">Projects</h2>
+            <div className="project">
+                <a
+                    href="VR Virtual Grasping Final Paper.pdf"
+                    target="_blank"
+                >
+                Physics-Based Free-Hand Virtual Grasping in VR
+                </a>
+            </div>
             <div className="project">
                 <a
                     href="Greed Philosophy Final Paper.pdf"
