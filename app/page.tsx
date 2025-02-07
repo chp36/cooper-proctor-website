@@ -5,19 +5,15 @@ export default function Home() {
           <div className="container about-container">
             <h2 className="section-title">About Me</h2>
             <p className="about-line">
-              Computer Science and Neuroscience student at Cornell University
+              Computer Science at Cornell University
             </p>
             <p className="about-line">
               Developing a deep learning approach to detect iRBD from gaited walking patterns
             </p>
             <p className="about-paragraph">
-              I&apos;m interested in the intersection of computer science, neuroscience, and bioethics 
-              in connection to issues surrounding neurodegenerative diseases and changes in brain function 
-              resulting from social media use and other new technologies.
-            </p>
-            <p className="about-paragraph">
-              In the future, I hope to develop a wearable device that helps people optimize and 
-              control their attention and focus.
+              I&apos;m interested in the intersection of computer science, human-computer interaction, and biotechnology.
+                Most recently, I've been interested in processing data and developing wearable technologies to help people optimize
+                performance and solve accessibility problems.
             </p>
           </div>
         </section>
