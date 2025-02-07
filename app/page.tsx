@@ -12,7 +12,7 @@ export default function Home() {
             </p>
             <p className="about-paragraph">
               I&apos;m interested in the intersection of computer science, human-computer interaction, and biotechnology.
-                Most recently, I've been interested in processing data and developing wearable technologies to help people optimize
+                Most recently, I&apos;ve been interested in processing data and developing wearable technologies to help people optimize
                 performance and solve accessibility problems.
             </p>
           </div>
