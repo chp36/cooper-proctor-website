@@ -8,7 +8,7 @@ export default function Home() {
               Computer Science at Cornell University
             </p>
             <p className="about-line">
-              Building acoustic wearables to detect and stimulate muscle activation in facial paralysis patients
+              Building acoustic wearables to detect and stimulate muscle activation for facial paralysis
             </p>
             <p className="about-paragraph">
               I&apos;m interested in the intersection of computer science, human-computer interaction, and biotechnology.
