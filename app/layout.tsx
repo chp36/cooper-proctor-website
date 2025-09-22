@@ -43,7 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                                 <a href="https://github.com/chp36" target="_blank">GitHub</a>
                                 <a href="https://www.linkedin.com/in/cooper-proctor/" target="_blank">LinkedIn</a>
                                 <a
-                                    href="/CooperProctor_Resume.pdf"
+                                    href="/Cooper_Proctor_Resume.pdf"
                                     target="_blank"
                                     className="button"
                                 >
